@@ -1,0 +1,9 @@
+spring:
+  aplication:
+  name: USERS API
+  profiles:
+  active: ${USER_API_PROFILE:dev}
+
+  server:
+  port: ${USER_API_PORT:8088}
+  

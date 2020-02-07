@@ -1,0 +1,20 @@
+spring:
+datasource: 
+drive-class-name: org.postgresql.Drive
+url: jdbc:postgresql://localhost:5432/kerberos
+username: postgres
+password: 2220718
+jpa:
+propierties:
+hibernate:
+jdbc:
+lob:
+non_contextual_creation: true
+generate-addl: true
+hibernate:
+ddl-auto: update
+show-sql: true
+
+
+
+  
